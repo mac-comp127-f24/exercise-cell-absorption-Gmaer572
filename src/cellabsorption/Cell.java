@@ -6,13 +6,13 @@ import edu.macalester.graphics.Ellipse;
 import edu.macalester.graphics.Point;
 
 import java.awt.Color;
-import java.util.Random;
+
 public class Cell {
     private static final double
         WIGGLINESS = 0.2,
         WANDER_FROM_CENTER = 60000;
     
-    private Random rand = new Random();
+    
     private Ellipse shape;
     private double radius;
     private double direction;
